@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+.container_main{
+  width: 1000px;
+  margin: auto;
+}
+
+.product_item{
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 372px;
+}
+
+.sconto{
+  background: green;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+i{
+  visibility: hidden;
+  position: absolute;
+  color: red;
+  bottom: 10px;
+  left: 50%;
+}
+
+.sconto2{
+  background: red;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.products_list_top{
+  margin-top: 50px;
+}
+
+.product_list_bottom{
+  margin-top: 50px;
+}
+
+footer{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product_item:hover{
+  cursor: pointer;
+}
+
+.product_item:hover i{
+  visibility: visible;
+  cursor: pointer;
+}
